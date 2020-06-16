@@ -25,10 +25,8 @@ public class UserLogin {
         this.password = password;
     }
 
-    public UserLogin() {
+    public UserLogin(String username) {
+        this.username = username;
     }
 
-    public UserLogin(String password) {
-        this.password = password;
-    }
 }
