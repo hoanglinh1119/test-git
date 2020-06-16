@@ -59,6 +59,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     @Autowired
     Environment env;
 //Đông
+    //Hoàng
     @Override
     public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
    this.applicationContext=applicationContext;
