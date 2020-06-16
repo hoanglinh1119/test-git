@@ -14,7 +14,7 @@ public class Phone {
     @NotEmpty
     private String phoneName;
     @NotEmpty
-    private String image;
+    public String image;
     @NotEmpty
     private String manufacturer;
     @NotEmpty
